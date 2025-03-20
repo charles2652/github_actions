@@ -1,9 +1,0 @@
-name: Test HOME
-on: [push]
-
-jobs:
-  test-home:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Afficher HOME
-        run: echo "Le répertoire HOME est : $HOME"
